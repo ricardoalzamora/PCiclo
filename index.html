@@ -5,22 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">    
     <title>CicloCienaga</title>
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/materialize.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper teal accent-3">
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a class="waves-effect waves-light btn green teal accent-4" href="">Inicio</a></li>
-                <li><a class="waves-effect waves-light btn green teal accent-4" href="">Rutas</a></li>
-                <li><a class="waves-effect waves-light btn green teal accent-4" href="">Contacto</a></li>
-                <li><a class="waves-effect waves-light btn green teal accent-4" href="">Acerca de</a></li>            
-            </ul>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">CicloCienaga</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Rutas</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Acerca de</a></li>
+          </ul>
         </div>
-    </nav>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Rutas</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Acerca de</a></li>
+      </ul>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
-    <script src="js/materialize.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
