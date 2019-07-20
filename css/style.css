@@ -17,9 +17,6 @@ main{
     margin: 5% auto auto auto;
     width: 26%;
 }
-span{
-    color: black;
-}
 @media only screen and (max-width: 900px) {
     .container {
         margin: 7% auto auto auto;
