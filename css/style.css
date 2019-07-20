@@ -8,6 +8,7 @@ footer{
     background: #1de9b6;
 }
 main{
+    padding-top: 1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -18,14 +19,14 @@ main{
 }
 @media only screen and (max-width: 900px) {
     .container {
-        margin: 5% auto auto auto;
+        margin: 7% auto auto auto;
         width: 40%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .container {
-        margin: 5% auto auto auto;
+        margin: 7% auto auto auto;
         width: 80%;
     }
 }
