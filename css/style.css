@@ -8,12 +8,22 @@ footer{
     background: #1de9b6;
 }
 main{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-/*#t{
-    background: red;
+.container{
+    margin: 3%;
+    width: 26%;
 }
-.con{
-    background: green;
-}*/
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
