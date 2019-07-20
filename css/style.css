@@ -4,3 +4,16 @@ body{
 nav{
     background: #1de9b6;
 }
+footer{
+    background: #1de9b6;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/*#t{
+    background: red;
+}
+.con{
+    background: green;
+}*/
