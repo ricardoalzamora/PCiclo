@@ -13,7 +13,7 @@ main{
     justify-content: space-evenly;
 }
 .container{
-    margin: 3%;
+    margin: 5% auto auto auto;
     width: 26%;
 }
 @media only screen and (max-width: 900px) {
@@ -24,6 +24,7 @@ main{
 
 @media only screen and (max-width: 600px) {
     .container {
+        margin: 5% auto auto auto;
         width: 80%;
     }
 }
