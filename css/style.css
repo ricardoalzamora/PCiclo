@@ -8,7 +8,7 @@ footer{
     background: #1de9b6;
 }
 main{
-    padding-top: 1%;
+    padding-top: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
